@@ -1,6 +1,9 @@
 # WIFT
 WIFT  es un marco de  herramientas  de hackign a redes wifi, pueden automatizar los ataques de distintas herramientas en tan solo poco tiempo 
 
+INSTALACION
+git clone
+
 Como funciona.
 
 Wifi Phisher: El primer paso cuenta con tener una tarjeta wifi que soporte el modo monitor, wifi-phisher creara una suplatancion de la red y conectara automaticamente a los clientes de la red verdadera y asi poder obtener la clave wifi 
@@ -31,5 +34,7 @@ Configuraremos también un servidor DNS, usaremos dnsmasq incluido en kali
 
 Con esto tendriamosmontado el punto de acceso falso donde los clientes se conectarían, tendrían su conexión a internet y poder evaluar la red wifi en nuestra auditoria o taller wifi.
 ![im9](https://user-images.githubusercontent.com/64449711/97357058-cd94b700-185e-11eb-9f80-c7ba904d125c.jpg)
+
+WIFI-Betterc: Este esta basado en el modo de ataque de bettercap, el uso es automatico con los comandos ya establecidos a usar paso a paso.
 
 
