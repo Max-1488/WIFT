@@ -46,6 +46,7 @@ Para crear un servidor dhcp podemos instalar un servidor sencillito con el coman
 
 ![im6](https://user-images.githubusercontent.com/64449711/97357039-c66da900-185e-11eb-9c6e-d4e62e39dde7.jpg)
 
+crea un archivo dhcpd.conf en la carpeta root  con  esta configuraciones; ayudale las caracteristicas como la direccion de ip con la que estableciste 
 ![im7](https://user-images.githubusercontent.com/64449711/97357047-c9689980-185e-11eb-82f7-dbf6e5ecf3cf.jpg)
 
 Configuraremos también un servidor DNS, usaremos dnsmasq incluido en kali
