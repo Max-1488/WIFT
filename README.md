@@ -11,8 +11,7 @@ Wifi-Reaver: Marco de hackeo a a redes wifi que tenga activado el WPS PIN en los
 
 Wifi-Access-Point: Esta herramienta crea una red wifi donde se puedan conectar los usuarios para asi obtener su trafico de red usando la suite de wireshark.
 Modo de uso:
-Lo primero será poner nuestra tarjeta wireless en modo monitor, comprobaremos primero que ID tiene en Kali nuestra tarjeta, en mi caso una Alfa.
+Lo primero será poner nuestra tarjeta wireless en modo monitor, comprobaremos primero que ID tiene en Kali nuestra tarjeta, en mi caso una alfha.
 
 
-(https://user-images.githubusercontent.com/64449711/97354234-b48a0700-185a-11eb-98dc-52565e927a18.jpg)
 
