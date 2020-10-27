@@ -1,22 +1,26 @@
 # WIFT
-WIFT  es un marco de  herramientas  de hackign a redes wifi, pueden automatizar los ataques de distintas herramientas en tan solo poco tiempo 
+WIFT  es un marco de  herramientas  de hacking a redes wifi, pueden automatizar los ataques de distintas herramientas en tan solo poco tiempo 
 
-INSTALACION
+# INSTALACION
 git clone https://github.com/Max-1488/WIFT.git
 cd Wifi-tools
 chmod +x WIFT.SH
 chmod +X install.sh
 bash WIFT.SH
 
-Como funciona.
+ # Como funciona.
 
-Wifi Phisher: El primer paso cuenta con tener una tarjeta wifi que soporte el modo monitor, wifi-phisher creara una suplatancion de la red y conectara automaticamente a los clientes de la red verdadera y asi poder obtener la clave wifi 
+ # Wifi Phisher: 
+El primer paso cuenta con tener una tarjeta wifi que soporte el modo monitor, wifi-phisher creara una suplatancion de la red y conectara automaticamente a los clientes de la red verdadera y asi poder obtener la clave wifi 
 
-Wifi-Cracking: Este cuenta con el marco de hackeo de aircrak, para la captura de handshake y decifrado de contraseña la herramienta trabajara por si sola, con los datos que le proporciones.
+ # Wifi-Cracking:
+Este cuenta con el marco de hackeo de aircrak, para la captura de handshake y decifrado de contraseña la herramienta trabajara por si sola, con los datos que le proporciones.
 
-Wifi-Reaver: Marco de hackeo a a redes wifi que tenga activado el WPS PIN en los routers uno de los metodos mas eficazes y faciles dde usar, ademas cuenta con pixiewps para decifrar el pin para asi obtener la contraseña WPA, WPA.
+ # Wifi-Reaver: 
+Marco de hackeo a a redes wifi que tenga activado el WPS PIN en los routers uno de los metodos mas eficazes y faciles dde usar, ademas cuenta con pixiewps para decifrar el pin para asi obtener la contraseña WPA, WPA.
 
-Wifi-Access-Point: Esta herramienta crea una red wifi donde se puedan conectar los usuarios para asi obtener su trafico de red usando la suite de wireshark.
+ # Wifi-Access-Point: 
+Esta herramienta crea una red wifi donde se puedan conectar los usuarios para asi obtener su trafico de red usando la suite de wireshark.
 Modo de uso:
 Lo primero será poner nuestra tarjeta wireless en modo monitor, comprobaremos primero que ID tiene en Kali nuestra tarjeta, en mi caso una alfha.
 ![im1](https://user-images.githubusercontent.com/64449711/97355477-92918400-185c-11eb-8a69-3afd0b2a705a.jpg)
@@ -39,6 +43,7 @@ Configuraremos también un servidor DNS, usaremos dnsmasq incluido en kali
 Con esto tendriamosmontado el punto de acceso falso donde los clientes se conectarían, tendrían su conexión a internet y poder evaluar la red wifi en nuestra auditoria o taller wifi.
 ![im9](https://user-images.githubusercontent.com/64449711/97357058-cd94b700-185e-11eb-9f80-c7ba904d125c.jpg)
 
-WIFI-Betterc: Este esta basado en el modo de ataque de bettercap, el uso es automatico con los comandos ya establecidos a usar paso a paso.
+# WIFI-Betterc: 
+Este esta basado en el modo de ataque de bettercap, el uso es automatico con los comandos ya establecidos a usar paso a paso.
 
 
