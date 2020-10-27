@@ -5,11 +5,11 @@ WIFT  es un marco de  herramientas  de hacking a redes wifi, pueden automatizar 
 git clone https://github.com/Max-1488/WIFT.git
 cd Wifi-tools
 
-chmod +x WIFT.SH
+chmod +x WIFT.sh
 
-chmod +X install.sh
+chmod +x install.sh
 
-bash WIFT.SH
+bash WIFT.sh
 
 
  # Como funciona.
